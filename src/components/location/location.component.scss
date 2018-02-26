@@ -1,0 +1,10 @@
+location {
+    padding: 0 !important;
+    .mdl-layout-title {
+        z-index: 7 !important;
+    }
+    .mdl-layout__drawer-button {
+        z-index: 8 !important;
+        color: white !important;
+    }
+}

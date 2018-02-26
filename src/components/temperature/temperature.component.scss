@@ -1,0 +1,31 @@
+temperature {
+    background: #B0BEC5;
+}
+.day {
+    temperature {
+        background: -moz-linear-gradient(-88deg, #0288d1 0%,#B3E5FC 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(-88deg, #0288d1 0%,#B3E5FC 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(178deg, #0288d1 0%,#B3E5FC 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+    }
+}
+.sunrise {
+    temperature {
+        background: -moz-linear-gradient(-88deg, #0288d1 0%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(-88deg, #0288d1 0%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(178deg, #0288d1 0%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+    }
+}
+.sunset {
+    temperature {
+        background: -moz-linear-gradient(-88deg, #B3E5FC 0%,#0288d1 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(-88deg, #B3E5FC 0%,#0288d1 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(178deg, #B3E5FC 0%,#0288d1 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+    }
+}
+.night {
+    temperature {
+        background: -moz-linear-gradient(-88deg, #1a237e 0%,rgba(0,176,255,0.7) 70%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(-88deg, #1a237e 0%,rgba(0,176,255,0.7) 70%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(178deg, #1a237e 0%,#00b0ff 70%,#ce93d8 87%,rgba(255,255,255,0) 88%,rgba(255,255,255,0) 100%);
+    }
+}

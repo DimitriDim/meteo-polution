@@ -1,0 +1,30 @@
+polution {
+    padding: 0 !important;
+    width: 100%;
+    padding: 0;
+    .mdl-list__item {
+        background-color: #607D8B;
+    }
+    .mdl-list {
+        padding: 0 !important;
+    }
+}
+.day polution .mdl-list__item ,
+.sunrise polution .mdl-list__item,
+.sunset polution .mdl-list__item,
+.night polution .mdl-list__item {
+    transition: background 1s !important;
+}
+
+.day polution .mdl-list__item {
+    background-color: #7CB342;
+}
+.sunrise polution .mdl-list__item{
+    background-color: #0288D1;
+}
+.sunset polution .mdl-list__item {
+    background-color: #00695C;
+}
+.night polution .mdl-list__item {
+    background-color: #283593;
+}

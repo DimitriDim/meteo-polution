@@ -1,0 +1,22 @@
+climat {
+    display: block;
+    background-color: #37474F;
+    &.day ,
+    &.sunrise,
+    &.sunset,
+    &.night {
+        transition: background 1s !important;
+    }
+    &.day {
+        background-color: #8BC34A;
+    }
+    &.sunrise{
+        background-color: #01579B;
+    }
+    &.sunset {
+        background-color: #004D40;
+    }
+    &.night {
+        background-color: #1A237E;
+    }
+}

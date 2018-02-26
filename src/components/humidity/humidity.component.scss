@@ -1,0 +1,10 @@
+humidity {
+    p {
+        margin: 0;
+        padding: .25em 0;
+    }
+    .col-4:nth-child(2){
+        border-left: solid 1px white;
+        border-right: solid 1px white;
+    }
+}

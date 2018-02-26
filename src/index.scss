@@ -1,0 +1,24 @@
+
+@import "./components/location/location.component.scss";
+@import "./components/city/city.component.scss";
+@import "./components/trace/trace.component.scss";
+@import "./components/climat/climat.component";
+@import "./components/temperature/temperature.component";
+@import "./components/humidity/humidity.component";
+@import "./components/polution/polution.component";
+
+.frameable {
+    transition: opacity 1s;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.frameable.active {
+    opacity: 1;
+    z-index: 3;
+}
